@@ -9,7 +9,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+  margin-top: auto;
   margin-bottom: auto;
 }
 
@@ -25,18 +25,29 @@ DIV {
   from {background-color: lightseagreen;}
   to {background-color: lightgreen;}
 }
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  animation: rotate 5s infinite;  
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-45deg)
+    }
+    100% {
+      transform: rotate(45deg)
+    }
+  }
 </style>
 
 <body>
 <div id="DIV">
-  <img src="https://www.nicepng.com/png/detail/946-9463873_discover-ideas-about-lemon-clipart-lemon-slice-vector.png" 
+  <img src="lemon.png" 
   class="rotate linear infinite" width="300" height="300" />
-
 </div>
-
-
-  
-
 
 </body>
 
