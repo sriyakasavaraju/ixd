@@ -1,0 +1,23 @@
+.flag {
+    background-color: firebrick;
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .vertical {
+    background: white;
+    position: absolute;
+    left: 30%;
+    width: 50px;
+    height: 2500px;
+  }
+  
+  .horizontal {
+    background: white;
+    position: absolute;
+    top: 50%;
+    width: 3700px;
+    height: 50px;
+    margin-top: -30px;
+  }

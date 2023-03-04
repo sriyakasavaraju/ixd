@@ -1,0 +1,51 @@
+.base {
+    background: black;
+    width: 650px;
+    height: 650px;
+    border: 7px solid;
+  }
+  .box1 {
+    background: rgb(248, 52, 45);
+    width: 280px;
+    height: 350px;
+  }
+  .box2 {
+    background: rgb(253, 253, 253);
+    margin-left: 300px;
+    width: 330px;
+    height: 365px;
+  }
+  .box3 {
+    background: rgb(253, 253, 253);
+    margin-top: 10px;
+    width: 270px;
+    height: 255px;
+  }
+  .rectangle1 {
+    background: rgb(253, 253, 253);
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 290px;
+    height: 250px;
+  }
+  .black1 {
+    background: rgb(255, 224, 49);
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 140px;
+    height: 15px;
+  }
+  .box4 {
+    background: rgb(0, 7, 197);
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 50px;
+    height: 100px;
+  }
+  .box5 {
+    background: rgb(253, 253, 253);
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 30px;
+    height: 155px;
+  }
