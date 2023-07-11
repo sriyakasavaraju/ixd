@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="sem5day1.css" />
+
+    <style>
+        .center-box {
+          width: 400px;
+          margin: 0 auto;
+        }
+        h1 {text-align: center;}
+        p {text-align: center;}
+        h2 {text-align: center;}
+        <div>This is a div.</div>
+       
+
+    </style>
+  </head>
+
+  <body style="background-color: #88D0A1 ;">
+<div class="center-box">
+   
+    
+  <h1>Events</h1>
+ <center> <img src="https://i.pinimg.com/originals/fc/5c/81/fc5c8104189e22de6e51432244e655de.jpg"
+  width="200" 
+     height="300">
+
+     <h2> About </h2>
+     <p> Indulge your taste buds and experience a mouthwatering evening filled with delectable pancakes, laughter, and delightful company. Whether you're a pancake connoisseur or simply someone who enjoys the warmth of a freshly made stack, this event promises to be a culinary delight like no other.</p>
+     <center>
+      <div>
+     <details>
+      <summary>Ingredients to bring</summary>
+      <p><br>· Flour: This homemade pancake recipe starts with all-purpose flour.</br>
+        <br>· Baking powder: Baking powder, a leavener, is the secret to fluffy pancakes.</br>
+        <br>· Sugar: Just a tablespoon of white sugar is all you'll need for subtly sweet pancakes.</br>
+        <br>· Salt: A pinch of salt will enhance the overall flavor without making your pancakes taste salty.</br>
+       <br> · Milk and butter: Milk and butter add moisture and richness to the pancakes.</br>
+        <br>· Egg: A whole egg lends even more moisture. Plus, it helps bind the pancake batter together..</br> </p>
+    </details>
+  </div>
+  </center>
+
+    <br>
+    <br>
+    <label for="location">Choose your location:</label>
+
+     <select id="cars">
+       <option value="volvo">Banglore</option>
+       <option value="saab">Delhi</option>
+       <option value="opel">Chennai</option>
+       <option value="audi">Ahmedabad</option>
+     </select>
+    <br><br>
+    <button type="button" onclick="alert('Reminder set for June 5th 6pm')" >Set Reminder</button>
+    </br>
+  </center>
+  
+ 
+<body>
+<center>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+</center>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Fill in this form to register</p>
+      <hr>
+ 
+      <label for="name"><b>Name</b></label>
+      <input type="name" placeholder="Enter Name" name="name" required>
+<br><br>
+     <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required> </br></br>
+
+
+      <label for="Choose Location"><b>Choose Location</b></label>
+      <input type="text" placeholder="Choose Location" name="Choose Location" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+      <label>
+        <input type="checkbox" checked="checked" name="notify" style="margin-bottom:15px"> Notify me for Future Events
+      </label>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body> 
+
+
+
+  </div>
+     </body>
+</html>
